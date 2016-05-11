@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+   android:orientation="vertical"
+   android:gravity="center_vertical"
+    android:background="@drawable/img17"
+  android:layout_height="fill_parent">
+   <LinearLayout 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+   >
+	    <TextView android:layout_width="50.0dip"
+	    android:layout_height="wrap_content"
+	    android:text="账号:"
+	    android:layout_marginLeft="10.0dip"
+	     android:layout_marginRight="10.0dip"
+	    />
+	    <EditText android:layout_width="190.0dip"
+	     android:id="@+id/username"
+	     android:layout_height="wrap_content"  /> 
+   </LinearLayout>
+   
+   <LinearLayout 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+   >
+	    <TextView android:layout_width="50.0dip"
+	    android:layout_height="wrap_content"
+	    android:text="密码:"
+	    android:layout_marginLeft="10.0dip"
+	     android:layout_marginRight="10.0dip"
+	    />
+	    <EditText android:layout_width="190.0dip"
+	    android:password="true"
+	     android:id="@+id/userpwd"
+	     android:layout_height="wrap_content"  /> 
+   </LinearLayout>
+   <LinearLayout 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="10.0dip"
+    android:layout_gravity="center_horizontal"
+   >
+    <Button  
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"  
+	    android:id="@+id/register"
+	    android:text=" 注         册 " />
+   </LinearLayout>
+</LinearLayout>

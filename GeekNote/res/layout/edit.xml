@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+   <LinearLayout 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="10.0dip"
+    >
+	    <TextView android:layout_width="80.0dip"
+	    android:layout_height="wrap_content"
+	    android:text="标题:"
+	    android:layout_marginLeft="5.0dip"
+	    />
+	    <EditText android:layout_width="190.0dip" 
+	    android:id="@+id/name"
+	    android:layout_height="wrap_content" />
+   </LinearLayout>
+   <LinearLayout 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="10.0dip"
+   >
+	    <TextView android:layout_width="80.0dip"
+	    android:layout_height="wrap_content"
+	    android:text="时间:"
+	    android:layout_marginLeft="5.0dip"
+	    />
+	    <EditText android:layout_width="190.0dip" 
+	     android:layout_height="wrap_content"
+	     android:id="@+id/dates"
+	     android:minLines="3"
+       />
+   </LinearLayout> 
+   <LinearLayout 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="10.0dip"
+   >
+	    <TextView android:layout_width="80.0dip"
+	    android:layout_height="wrap_content"
+	    android:text="内容:"
+	    android:layout_marginLeft="5.0dip"
+	    />
+	    <EditText android:layout_width="190.0dip" 
+	    android:id="@+id/stu"
+	    android:layout_height="wrap_content"
+	    android:minLines="3"
+        />
+   </LinearLayout>
+   
+   
+   
+   <LinearLayout 
+   android:id="@+id/LinearLayout04"
+    android:layout_height="wrap_content"
+     android:layout_width="fill_parent">
+		<TextView 
+		android:id="@+id/TextView02" 
+		android:layout_height="wrap_content"
+		 android:text="选择时间" android:layout_width="fill_parent" 
+		 android:fadingEdge="horizontal"
+		  android:height="24dip"
+		   android:drawablePadding="2dip">
+		  </TextView>	    
+	</LinearLayout>
+   <LinearLayout 
+	android:id="@+id/LinearLayout05"
+	 android:layout_width="wrap_content"
+	  android:layout_height="wrap_content">
+		<TextView android:id="@+id/vdate" 
+		android:layout_width="wrap_content"
+		 android:layout_height="wrap_content" 
+		 android:textAppearance="?android:attr/textAppearanceLarge"
+		  android:width="120dip"></TextView>
+		<Button 
+		android:id="@+id/BtnDate" 
+		android:layout_width="wrap_content"
+		 android:layout_height="wrap_content" 
+		 android:text="+" android:textStyle="bold"
+		  android:textSize="24dip" android:height="30dip"
+		   android:width="30dip"></Button>
+		<TextView 
+		android:id="@+id/vtime"
+		 android:layout_width="wrap_content" 
+		 android:layout_height="wrap_content" 
+		 android:textAppearance="?android:attr/textAppearanceLarge"
+		  android:width="80dip" android:gravity="center_horizontal"></TextView>
+		<Button 
+		android:id="@+id/BtnTime" 
+		android:layout_width="wrap_content"
+		 android:layout_height="wrap_content"
+		  android:text="+" android:textStyle="bold" 
+		  android:textSize="24dip"></Button>		
+	</LinearLayout>	
+</LinearLayout>
